@@ -114,7 +114,7 @@ function checksumpersist_civicrm_alterSettingsFolders(&$metaDataFolders = NULL) 
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_buildForm
  */
 function checksumpersist_civicrm_buildForm($formName, &$form) {
-  // INZ-7903: Persist checksum auth beyond the contribute form.
+  // Persist checksum auth beyond the contribute form.
   $persist_checksum = TRUE;
   // Don't persist if we are logged in as a Drupal user.
   global $user;
