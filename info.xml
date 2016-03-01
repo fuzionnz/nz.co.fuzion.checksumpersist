@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<extension key="nz.co.fuzion.checksumpersist" type="module">
+  <file>checksumpersist</file>
+  <name>Checksum Persist</name>
+  <description>Permit checksums to persist beyond the initial form.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Chris Burgess</author>
+    <email>chris@fuzion.co.nz</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">http://github.com/fuzionnz/nz.co.fuzion.checksumpersist</url>
+    <url desc="Documentation">http://github.com/fuzionnz/nz.co.fuzion.checksumpersist</url>
+    <url desc="Support">http://github.com/fuzionnz/nz.co.fuzion.checksumpersist</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2015-03-24</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.4</ver>
+    <ver>4.5</ver>
+    <ver>4.6</ver>
+  </compatibility>
+  <comments>Makes checksums persist to the next page(s).</comments>
+  <civix>
+    <namespace>CRM/Checksumpersist</namespace>
+  </civix>
+</extension>
